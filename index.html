@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Друга лабораторна робота з дисципліни 'Основи Front-end технологій', варіант 52(у методичці 2)">
+  <link rel="stylesheet" href="style.css">
+  <title>Олексійчук С. Ю. ІМ-43 Лабораторна №2 Варіант №52</title>
+
+  <style>
+    .table-container {
+      margin: 20px auto;
+    }
+
+    table,
+    th,
+    td {
+      border: 2px solid black;
+      border-collapse: collapse;
+    }
+
+    .table-container td {
+      padding: 5px;
+      text-align: center;
+      width: 200px;
+      min-width: 200px;
+      max-width: 200px;
+      height: 20px;
+    }
+
+    #first-long-cell {
+      vertical-align: top;
+    }
+
+    #second-long-cell {
+      vertical-align: top;
+    }
+
+    .first-row,
+    .first-row:hover,
+    .second-row,
+    .second-row:hover {
+      transition: all 0.3s;
+    }
+
+    .first-row {
+      background-color: #528f8f;
+      color: #331c1c;
+    }
+
+    .first-row:hover {
+      background-color: #f5f552;
+      color: #965c5c;
+      cursor: pointer;
+    }
+
+    .second-row {
+      background-color: #f5f552;
+      color: #965c5c;
+    }
+
+    .second-row:hover {
+      background-color: #528f8f;
+      color: #331c1c;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <table class="table-container">
+
+      <tr class="first-row">
+        <td rowspan="3" id="first-long-cell">Олексійчук
+        </td>
+        <td>Станіслав</td>
+        <td rowspan="3" id="second-long-cell">Юрійович
+        </td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td class="second-row">ЛР №2</td>
+        <td class="second-row">Варіант - 52</td>
+      </tr>
+
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td class="second-row">ІМ-43</td>
+        <td colspan="2"></td>
+        <td></td>
+      </tr>
+
+    </table>
+  </div>
+  <hr />
+  <div class="flags-container">
+
+    <div>
+      <div class="first-flag-background">
+        <div class="first-vertical-rectangle"></div>
+        <div class="first-horizontal-rectangle"></div>
+      </div>
+    </div>
+
+
+    <div class="second-flag-background">
+      <div class="second-vertical-rectangle"></div>
+      <div class="second-horizontal-rectangle"></div>
+    </div>
+  </div>
+
+</body>
+
+</html>

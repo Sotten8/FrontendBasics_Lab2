@@ -1,0 +1,67 @@
+body {
+  margin: 20px 10px;
+  font:
+    20px 'Times New Roman',
+    Times,
+    serif;
+}
+
+.flags-container {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  margin-top: 20px;
+}
+
+.first-flag-background,
+.second-flag-background {
+  background-color: #da291c;
+  width: 300px;
+  height: 300px;
+  position: relative;
+}
+
+.first-flag-background {
+  position: relative;
+}
+
+.first-vertical-rectangle,
+.first-horizontal-rectangle {
+  background-color: #ffffff;
+  width: 60%;
+  height: 20%;
+  position: absolute;
+  top: 120px;
+  left: 60px;
+  border-radius: 10px;
+}
+
+.first-vertical-rectangle {
+  width: 60%;
+  height: 20%;
+  top: 120px;
+  left: 60px;
+}
+
+.first-horizontal-rectangle {
+  width: 20%;
+  height: 60%;
+  top: 60px;
+  left: 120px;
+}
+
+.second-vertical-rectangle,
+.second-horizontal-rectangle {
+  background-color: #ffffff;
+  width: 60%;
+  height: 20%;
+  border-radius: 10px;
+}
+
+.second-vertical-rectangle {
+  transform: translate(60px, 120px);
+}
+
+.second-horizontal-rectangle {
+  transform: rotate(90deg) translate(60px, -60px);
+}
